@@ -1,0 +1,36 @@
+/* tableStyles.css */
+
+.pdf-export-table {
+    color: #1f2937;
+    background-color: #1f2937; /* Dark blue-gray background */
+    font-family: Arial, sans-serif; /* Set font family */
+    border-collapse: collapse; /* Collapse borders */
+    width: 80%; /* Full width */
+}
+
+.pdf-export-table th {
+    background-color: #4b5563; /* Dark slate gray for header */
+    font-weight: bold; /* Bold font for header */
+}
+
+.pdf-export-table th,
+.pdf-export-table td {
+    border: 1px solid #6b7280; /* Medium gray border */
+    padding: 10px; /* Padding for cells */
+}
+
+.pdf-export-table th {
+    text-align: left; /* Align header text to the left */
+}
+
+.pdf-export-table td {
+    text-align: center; /* Align cell text to the center */
+}
+
+.pdf-export-table tbody tr:nth-child(even) {
+    background-color: #2d3748; /* Darker shade for even rows */
+}
+
+.pdf-export-table tbody tr:hover {
+    background-color: #4a5568; /* Hover color for rows */
+}
